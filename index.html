@@ -37,9 +37,64 @@
                     <option value="job">Full time worker</option>
                     <option value="unemployed">Unmemployed</option>
                     <option value="other">Other</option>
-
-
                 </select>
+            <div class="form-group">
+                <p>Would you recommend this website to a friend</p>
+                <label>
+                    <input name="user-recommend" value="definitely" type="radio" class="input-radio" checked>
+                    Definitely
+                </label>
+                <label>
+                    <input name="user-recommend" value="maybe" type="radio" class="input-radio">
+                    Maybe
+                </label>
+                <label>
+                    <input name="user-recommend" value="not-sure" type="radio" class="input-radio">
+                    Not-sure
+                </label>
+            </div> 
+            <div class="form-group">
+                <p>What do you like best about this website</p>
+                <select id="most-like" name="most-like" class="form-control" required>
+                    <option disabled selected value="">Pick your Favourite</option>
+                    <option value="design">Design</option>
+                    <option value="functionality">Functionality</option>
+                    <option value="content">Content</option>
+                </select>
+            </div> 
+            <div class="form-group">
+                <p>What do you like the least about this website</p>
+                <select id="least-like" name="least-like" class="form-control" reuqired>
+                    <option diabled selected value>Selected dislike</option>
+                    <option value="design">Design</option>
+                    <option value="functionality">Functionality</option>
+                    <option vlaue="content">Content</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <p>What improvememts would you love to see</p>
+                    <span class="clue">(Check all that apply)</span>
+                    <label>
+                        <input name="prefer" value="design" type="checkbox" class="input-checkbox">
+                        Design
+                    </label>
+                    <label>
+                        <input name="prefer" value="functionality" type="checkbox" class="input-checkbox">
+                        Functionality
+                    </label>
+                    <label>
+                        <input name="prefer" value="content" type="checkbox" class="input-checkbox">
+                        Content
+                    </label>
+            </div>
+            <div class="form-group">
+                <p>Any other comments or suggestions</p>
+                <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter  your comments here..." ></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit" id="submit" class="submit-button">
+                    Submit
+                </button>
             </div>
         </form>
     </div>
