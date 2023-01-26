@@ -105,7 +105,42 @@ header{
     max-width: 500px;
     padding: 1rem;
     max-width: 500px;
-
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.submit-button{
+    background: linear-gradient(
+        115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) );
+    color: #fff;
+    appearance: auto;
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 2px;
+    cursor: pointer;
+}
+textarea{
+    background-color: field;
+    cursor: text;
+    border-width: 1px;
+    border-style: solid;
+    column-count: initial !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    display: inline-block;
+    padding: 30px;
+    text-align: start;
+    -webkit-rtl-ordering: logical;
+    writing-mode: horizontal-tb !important;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    box-sizing: border-box;
 
+}
+input-textarea{
+    min-height: 120px;
+    width: 100%;
+    padding: 0.625rem;
+    resize: vertical;
 }
